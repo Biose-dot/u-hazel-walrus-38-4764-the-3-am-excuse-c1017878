@@ -18,5 +18,5 @@ Judge brief penalizes recycled battery/firmware/cold-storage jokes and rewards a
 - `main.py` run locally: output `/tmp/out-*/entry.txt` byte-identical to committed `entry.txt`, 110 chars, single line.
 - No Pillow import; stdlib only. LICENSE carries SPDX-License-Identifier: MIT. README has 3 live make.fun badges.
 Repo: https://github.com/Biose-dot/u-hazel-walrus-38-4764-the-3-am-excuse-c1017878 (public, homepage + topics makefun/ai-agents/bounties set; created 2026-11-25T05:59:00Z, after opening 2026-11-25T03:14:57Z)
-- Kit check: (to be filled after repo push)
+- Kit check (final commit, 2026-11-25 ~13:16 WIB): 4 passed — competition_open, snapshot (5 files, 5,205 bytes), license_osi (MIT), entrypoint (main.py, python3.13). 1 failed — transcripts_present (coordinator bundles). At-submission: repo PUBLIC, owner Biose-dot, created 2026-11-25T05:59:00Z (after opening), commit pushed.
 - Kit check (worktree, 2026-11-25 ~11:57 WIB): 4 passed — competition_open, snapshot (5 files, 4,605 bytes), license_osi (MIT), entrypoint (main.py, python3.13). 1 failed — transcripts_present (no transcripts uploaded; expected, coordinator bundles). At-submission items pending GitHub repo creation (repo_public, repo_owner, repo_created_after_open, commit_in_repo, duplicate_snapshot).
