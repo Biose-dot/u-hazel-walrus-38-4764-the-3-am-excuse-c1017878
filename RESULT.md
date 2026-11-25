@@ -1,0 +1,20 @@
+# Result — The 3 AM Excuse
+
+Entry (110 characters, single line, under 200):
+
+> My ledger keeps a page for every 3 AM trade you've made. Every one ends in regret. Tonight's page stays blank.
+
+Status: built, pending coordinator bundle+submit
+
+## Revisions (3 session passes)
+- v1: "Every 3 AM signature in my ledger ends the same way: regret, then a support ticket. Tonight's page stays blank." (111)
+- v2: "My ledger holds a page for every 3 AM trade you've made. All of them end in regret. Tonight's page stays blank." (111) — wallet voice made direct, "support ticket" cut.
+- v3 (final): "My ledger keeps a page for every 3 AM trade you've made. Every one ends in regret. Tonight's page stays blank." (110) — "keeps"/"Every one" punchier.
+
+## Why this angle
+Judge brief penalizes recycled battery/firmware/cold-storage jokes and rewards a surprising angle, the wallet's own voice, and the 3 AM hour itself as the joke. The ledger is the wallet's own artifact; every 3 AM trade ending in regret makes the hour intrinsic, not decorative.
+
+## Checks
+- `main.py` run locally: output `/tmp/out-*/entry.txt` byte-identical to committed `entry.txt`, 110 chars, single line.
+- No Pillow import; stdlib only. LICENSE carries SPDX-License-Identifier: MIT. README has 3 live make.fun badges.
+- Kit check: (to be filled after repo push)
